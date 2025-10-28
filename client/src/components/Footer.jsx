@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30  text-gray-500'>
         <div>
             <img className='w-32 sm:w-44' src={assets.logo} alt="logo" />
-            <p className='max-w-[410px mt-6]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga repudiandae voluptatem praesentium incidunt saepe labore tenetur inventore quos accusamus?</p>
+            <p className='max-w-[410px mt-6]'>A space where machines write and humans discover meaning.</p>
         </div>
         <div className='flex flex-wrap justify-between w-full md:w-[45%] gap-5'>
             {footer_data.map((section, index)=>(
