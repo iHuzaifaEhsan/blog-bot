@@ -117,7 +117,7 @@ const Blog = () => {
           <div className='flex'>
             <img src={assets.facebook_icon} width={50} alt="" />
             <img src={assets.twitter_icon} width={50} alt="" />
-            <img src={assets.googleplus_icon_icon} width={50} alt="" />
+            <img src={assets.googleplus_icon} width={50} alt="" />
           </div>
         </div>
       </div>
